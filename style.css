@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    width: 100%;
+}
+.logo{
+    width: 100%;
+    height: 50px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4d636f;
+}
+
+.all-nav{    
+    display: flex;
+}
+
+.button{
+    width: 140px;
+    height: 50px;
+    border: 0px;
+    background-color: #3a4b53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: black; 
+}
+
+
+.color{
+    color: white;   
+}
+.color:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.logo-text{
+    color: white;
+}
+
+
+.lan{
+    width: 60px;
+    height: 50px;
+    background-color: #4d636f;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+  
+}
+
+.lan:hover{
+    color: white;
+    background-color: black; 
+}
+
+
+.log-in{
+    width: 60px;
+    height: 50px;
+    background-color: #4d636f;
+    border-radius: 50px;
+    color: white;
+    border: 0px;
+    margin-right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.log-in:hover{
+    background-color: white;
+    color: black;
+}
+
+/* navbar over */
+.profile{
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+.my-detail{
+    width: 95%;
+    margin: auto;
+    margin-top: 19px;
+    margin-left: 10px;
+    width: 350px;
+    height: 800px;
+    border: 1px solid;
+     display: flex;
+     justify-content: center;
+  
+}
+
+.detail{
+    
+   
+    
+}
+.my-text{
+    margin-top: 15px;
+}
+
+.job{
+    
+}
