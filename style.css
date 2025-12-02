@@ -73,7 +73,7 @@
     width: 60px;
     height: 50px;
     background-color: #4d636f;
-    border-radius: 50px;
+    border-radius: 5px;
     color: white;
     border: 0px;
     margin-right: 10px;
@@ -198,6 +198,45 @@
 .names:hover{
     background-color: white;
     color: black;
+    border: 1px solid;
 
 }
 /* Interest over */
+
+
+.hey{
+    width: 270px;
+    height: 140px;
+    margin-top: 20px;
+    background-color: #ccc;
+    position: relative;
+}
+.hey-notifi{
+    width: 100%;
+}
+
+.text-hey{
+    padding: 15px;
+
+}
+
+
+.close{
+    width: 40px;
+    height: 40px;
+    font-weight: bolder;
+    background-color: #becbd2;
+    border: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.close:hover{
+    background-color: #d1d8db;
+}
+.hey-para{
+    padding: 10px;
+    
+}
