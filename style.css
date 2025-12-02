@@ -93,9 +93,13 @@
 }
 
 .all-profile{
-    width: 97%;
+    width: 98%;
     margin: auto;
+}
 
+.left-center-right{
+    display: flex;
+    justify-content: space-between;
 }
 
 .my-detail {
@@ -239,4 +243,65 @@
 .hey-para{
     padding: 10px;
     
+}
+
+/* left over */
+
+.all-social{
+    width: 700px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-top: 19px;
+}
+
+.post{
+    padding: 15PX;
+}
+.text-size{
+    width: 665px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.post-but{
+    margin-top: 20px;
+    width: 75px;
+    height: 40px;
+}
+
+
+
+.john{
+    width: 700px;
+    height: 500px;
+    border: 1px solid;
+}
+
+
+
+.jane{
+    width: 700px;
+    height: 200px;
+    border: 1px solid;
+}
+
+
+
+
+
+/* center over  */
+
+.upcoming{
+    width: 300px;
+    height: 500px;
+    border: 1px solid;
+}
+
+.request{
+    width: 300px;
+    height: 350px;
+    border: 1px solid;
 }
