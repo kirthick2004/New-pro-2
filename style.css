@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-.navbar{
+.navbar {
     width: 100%;
 }
-.logo{
+
+.logo {
     width: 100%;
     height: 50px;
     border: 0px solid;
@@ -17,11 +18,11 @@
     background-color: #4d636f;
 }
 
-.all-nav{    
+.all-nav {
     display: flex;
 }
 
-.button{
+.button {
     width: 140px;
     height: 50px;
     border: 0px;
@@ -33,42 +34,43 @@
     cursor: pointer;
 }
 
-.button:hover{
-    background-color: black; 
+.button:hover {
+    background-color: black;
 }
 
 
-.color{
-    color: white;   
+.color {
+    color: white;
 }
-.color:hover{
+
+.color:hover {
     background-color: white;
     color: black;
 }
 
 
-.logo-text{
+.logo-text {
     color: white;
 }
 
 
-.lan{
+.lan {
     width: 60px;
     height: 50px;
     background-color: #4d636f;
     color: white;
     border: 0px;
     cursor: pointer;
-  
+
 }
 
-.lan:hover{
+.lan:hover {
     color: white;
-    background-color: black; 
+    background-color: black;
 }
 
 
-.log-in{
+.log-in {
     width: 60px;
     height: 50px;
     background-color: #4d636f;
@@ -79,52 +81,90 @@
     font-size: 25px;
     cursor: pointer;
 }
-.log-in:hover{
+
+.log-in:hover {
     background-color: white;
     color: black;
 }
 
 /* navbar over */
-.profile{
+.profile {
     width: 100%;
     font-family: "Open Sans", sans-serif;
 }
-.my-detail{
-    width: 95%;
+
+.all-profile{
+    width: 97%;
     margin: auto;
+
+}
+
+.my-detail {
+   
     margin-top: 19px;
-    margin-left: 10px;
+   
     width: 270px;
     height: 330px;
-    /* border: 1px solid; */
-     display: flex;
-     /* align-items: center; */
-     flex-direction: column;
-     font-weight: lighter;
-     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
-  
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+
 }
 
 
-.my-text{
+.my-text {
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
 
-.photo{
+.photo {
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
 
-.job{
-   display: flex;
-   gap: 20px;
-   margin-top: 20px;
+.job {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
 }
-.job-icon{
+
+.job-icon {
     margin-left: 10px;
 }
 
 /* profile over */
+.events{
+    width: 270px;
+    height: 150px;
+    margin-top: 20px;
+       box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.event-prop{
+   width: 270px;
+   height: 50px;
+   padding: 15px;
+   color: white;
+    background-color: #4d636f;
+    height: 50px;
+}
+
+.event-prop:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.icons{
+    width: 200px;
+    
+}
+
+.span-text{
+    margin-left: 20px;
+}
+
+
