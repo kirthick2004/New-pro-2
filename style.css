@@ -183,6 +183,9 @@
 .name-button{
     padding: 15px;
     letter-spacing: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
 }
 
 .names{
