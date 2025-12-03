@@ -3,22 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-.html-body{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .navbar {
     width: 100%;
 }
 
 .logo {
-    width: auto;
+    width: 100%;
     height: 50px;
-    border: 0px solid;
+   
     display: flex;
     justify-content: space-between;
     background-color: #4d636f;
@@ -254,6 +247,13 @@
 
 /* left over */
 
+.center{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
 .all-social{
     width: 700px;
     height: 160px;
@@ -291,18 +291,24 @@
 
 
 .john{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 700px;
-    height: 500px;
+    height: auto;
        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-top: 20px;
+    
 }
 .all-side{
     width: 100%;
+
 }
 
 .all1{
     width: 95%;
     margin: auto;
+   
 }
 .john-doe{
     display: flex;
@@ -320,20 +326,23 @@
 
 .nature{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     margin-top: 20px;
-        flex-wrap: wrap;
+        
 
     
 }
 .card{
-    width: 325px;
+    width: 300px;
     height: 250px;
 }
 
 .buttons{
     display: flex;
     margin-top: 20px;
+    margin-bottom: 20px;
     flex-wrap: wrap;
     gap: 5px;
 }
@@ -366,9 +375,10 @@
 
 .jane{
     width: 700px;
-    height: 230px;
+    height: auto;
        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-top: 20px;
+    
 }
 .jane-doe1{
     width: 100%;
@@ -377,6 +387,9 @@
 .jane-data{
     width: 95%;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .jane-profile{
     display: flex;
@@ -392,6 +405,7 @@
 }
 
 .john1{
+  
     width: 700px;
     height: auto;
        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -404,13 +418,16 @@
 }
 
 .john-data{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     width: 95%;
     margin: auto;
 }
 .john-profile{
     display: flex;
     align-items: center;
-        flex-wrap: wrap;
+        
 
 }
 .john-img{
@@ -432,6 +449,8 @@
 
 
 /* center over  */
+
+
 
 .upcoming{
     width: 300px;
@@ -540,16 +559,225 @@ flex-direction: column;
     color: white;
     font-family: "Open Sans", sans-serif;
 }
-@media (max-width:600px) {
-    .logo{
-        width: 100%;
+
+
+@media (max-width:920px) {
+
+     .left-center-right{
+         
+          justify-content: center;
     }
-    
+     .center{
+        justify-content: center;
+    }
 }
-@media (min-width:500px) {
+
+
+
+
+
+
+@media (max-width:768px) {
     .left-center-right{
           align-items: center;
+          justify-content: center;
     }
+  .all-social{
+    width: 600px;
+  }
+
+  .text-size{
+    width: 550px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+    .john{
+    
+    width: 600px;
+  justify-content: center;
     
 }
+.jane{
+    width: 600px;
+   
+      
+}
+
+.john1{
+  
+    width: 600px;
+    
+}
+
+.nature1{
+    width: 480px;
+}
+
+.img-nature{
+    display: flex;
+    justify-content: center;
+}
+
+   
+    
+}
+
+@media (max-width:620px) {
+     .all-social{
+    width: 450px;
+  }
+
+  .text-size{
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+    .john{
+    
+    width: 450px;
+  justify-content: center;
+    
+}
+.jane{
+    width: 450px;
+    
+      
+}
+
+.john1{
+  
+    width: 450px;
+    
+}
+
+.nature1{
+    width: 380px;
+}
+
+.img-nature{
+    display: flex;
+    justify-content: center;
+}
+
+    
+}
+
+@media (max-width:500px) {
+     .all-social{
+    width: 370px;
+  }
+
+  .text-size{
+    width: 320px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+    .john{
+    
+    width: 370px;
+  justify-content: center;
+    
+}
+.jane{
+    width: 370px;
+    
+      
+}
+
+.john1{
+  
+    width: 370px;
+    
+}
+
+.nature1{
+    width: 310px;
+}
+
+.img-nature{
+    display: flex;
+    justify-content: center;
+}
+
+.lan {
+    
+    display: none;
+
+}
+
+    
+}
+
+@media (max-width:400px) {
+     .all-social{
+    width: 310px;
+  }
+
+  .card{
+    width: 270px;
+    height: 250px;
+}
+
+  .text-size{
+    width: 270px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+    .john{
+    
+    width: 310px;
+  justify-content: center;
+    
+}
+.jane{
+    width: 310px;
+    
+      
+}
+
+.john1{
+  
+    width: 310px;
+    
+}
+
+.nature1{
+    width: 250px;
+}
+
+.img-nature{
+    display: flex;
+    justify-content: center;
+}
+
+.lan {
+    
+    display: none;
+
+}
+
+    
+}
+
+
+
+
+@media (min-width:920px) {
+
+     .left-center-right{
+        gap: 22px;
+         
+          justify-content: center;
+    }
+     .center{
+        justify-content: center;
+    }
+}
+
+
+
  
