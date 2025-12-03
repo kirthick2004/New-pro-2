@@ -3,14 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.html-body{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .navbar {
     width: 100%;
 }
 
 .logo {
-    width: 100%;
+    width: auto;
     height: 50px;
     border: 0px solid;
     display: flex;
@@ -255,6 +261,7 @@
     /* flex-direction: column; */
        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .post{
@@ -300,6 +307,8 @@
 .john-doe{
     display: flex;
     align-items: center;
+        flex-wrap: wrap;
+
 }
 .img-john{
     width: 70px;
@@ -313,6 +322,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+        flex-wrap: wrap;
+
     
 }
 .card{
@@ -323,7 +334,7 @@
 .buttons{
     display: flex;
     margin-top: 20px;
-    
+    flex-wrap: wrap;
     gap: 5px;
 }
 
@@ -370,6 +381,7 @@
 .jane-profile{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .jane-img{
     width: 70px;
@@ -398,6 +410,8 @@
 .john-profile{
     display: flex;
     align-items: center;
+        flex-wrap: wrap;
+
 }
 .john-img{
     width: 70px;
@@ -431,6 +445,8 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+        flex-wrap: wrap;
+
 }
 .upcoming-text{
     margin-top: 20px;
@@ -466,12 +482,15 @@
 display: flex;
 flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 .friend-request{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+        flex-wrap: wrap;
+ 
 }
 
 .friend-text{
@@ -521,3 +540,16 @@ flex-direction: column;
     color: white;
     font-family: "Open Sans", sans-serif;
 }
+@media (max-width:600px) {
+    .logo{
+        width: 40%;
+    }
+    
+}
+@media (min-width:500px) {
+    .left-center-right{
+          align-items: center;
+    }
+    
+}
+ 
