@@ -542,7 +542,7 @@ flex-direction: column;
 }
 @media (max-width:600px) {
     .logo{
-        width: 40%;
+        width: 100%;
     }
     
 }
